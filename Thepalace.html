@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Palace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./thepalace.css">
+    <link rel="stylesheet" href="./homestyle.css">
+    <link rel="shortcut icon" href="./Wok_Asian_Food_Logo_(1)-transformed.png" type="image/x-icon">
+</head>
+<body>
+<!-- Nav-Bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid p-0 m-0 navigation">
+    <a class="navbar-brand" href="Home.html"><img src="./Logo.png" alt="./Wok_Asian_Food_Logo_(1)-transformed.png" width="50px" class="rounded-circle"></a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Restaurants
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-header" href="#">Vegan</a></li>
+            <li><a class="dropdown-item" href="#">Verdant Vittles</a></li>
+            <li><a class="dropdown-item" href="#">Green Grove Grub</a></li>
+            <li><a class="dropdown-item" href="#">e'woke</a></li>
+            <li><a class="dropdown-item" href="#">Terrasen Cafe</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-header" href="#">Non-Veg</a></li>
+            <li><a class="dropdown-item" href="Thepalace.html">The Palace</a></li>
+            <li><a class="dropdown-item" href="#">Mere Indian Family Dhaba</a></li>
+            <li><a class="dropdown-item" href="#">Vindu Restaurant</a></li>
+            <li><a class="dropdown-item" href="#">Bawarchie</a></li>
+            <li><a class="dropdown-item" href="#"> Shadab</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <form class="d-flex ps-5 " role="search">
+          <input class="form-control rounded rounded-pill searchbar" type="search" placeholder="Search your favourite food...." aria-label="Search">
+          <button class="btn" type="submit"><a href="#" class="mglass"><i class="fa-solid fa-magnifying-glass p-0" style="font-size:30px"></i></a></button>
+        </form>
+      </ul>
+    </div>
+    <div class="navitools d-flex sm-ps-0 md-ps-0 p-0">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon fs-6"></span>
+      </button>
+      <button class="btn scart"><a href="#"><i class="fa-solid fa-cart-shopping fs-2"></i></a></button>
+      <button class="btn dloc"><a href="#"><i class="fa-solid fa-map-location-dot fs-2"></i></a></button>
+    </div>
+  </div>
+</nav>
+  <!-- carousal -->
+<div class="container pt-4">
+    <div id="thepalacecarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images1/pexels-marvin-ozz-2474661.jpg" class="d-block w-100" alt="fishplatter">
+        </div>
+        <div class="carousel-item">
+          <img src="./images1/pexels.jpg" class="d-block w-100" alt="parota">
+        </div>
+        <div class="carousel-item">
+          <img src="./images1/38f5d9f30b421d2098b5c63bc6f8238d--sunday-ice-cream-fast-foods.jpg" class="d-block w-100" alt="sweet">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#thepalacecarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#thepalacecarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Header -->
+    <div class="header pt-5">
+          <h1>The Palace</h1>
+          <p>North Indian, Mughlai, Chinese, Beverages</p>
+          <button class="btn btn-outline-danger"><i class="fa-solid fa-diamond-turn-right"></i><a href="https://maps.app.goo.gl/BjMMJGpFk1zcYvJR8" class="link-danger text-decoration-none">Direction</a></button>
+          <hr class="dashed">
+      </div>
+    <!-- Menu -->
+    <div class="container p-4">
+    <div class="menu">
+      <h1 class="cuisinename">Main Course</h1>
+     
+      <div class="row row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 gy-4">
+         <!-- card-1 -->
+        <div class="col">
+      <div class="card horizontalcard p-0 m-0">
+        <div class="card-body p-0 m-0">
+          <div class="row">
+            <div class="col-4">
+              <img src="./images2/biryani1.jpg" alt="biryani" class="w-100 horizontalimg">
+            </div>
+            <div class="col-8 lg-p-3">
+              <h1 class="itemname">Chicken Biryani</h1>
+              <p class="Time"><i class="fa-regular fa-clock"></i> 20-30 min</p>
+              <p class="Time"><i class="fa-solid fa-indian-rupee-sign"></i> 300</p>
+              <button class="btn btn-dark Time">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+        <!-- card-2 -->
+        <div class="col">
+          <div class="card horizontalcard p-0 m-0">
+            <div class="card-body p-0 m-0">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images1/MuttonBiryani.webp" alt="biryani" class="w-100 horizontalimg">
+                </div>
+                <div class="col-8 lg-p-3">
+                  <h1 class="itemname">Mutton Biryani</h1>
+                  <p class="Time"><i class="fa-regular fa-clock"></i> 20-30 min</p>
+                  <p class="Time"><i class="fa-solid fa-indian-rupee-sign"></i>600</p>
+                  <button class="btn btn-dark Time">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        <!-- card-3 -->
+        <div class="col">
+          <div class="card horizontalcard p-0 m-0">
+            <div class="card-body p-0 m-0">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images1/egg-biryani-recipe.jpg" alt="biryani" class="w-100 horizontalimg">
+                </div>
+                <div class="col-8 lg-p-3">
+                  <h1 class="itemname">Egg Biryani</h1>
+                  <p class="Time"><i class="fa-regular fa-clock"></i> 20-30 min</p>
+                  <p class="Time"><i class="fa-solid fa-indian-rupee-sign"></i> 250</p>
+                  <button class="btn btn-dark Time">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        <!-- card-4 -->
+        <div class="col">
+          <div class="card horizontalcard p-0 m-0">
+            <div class="card-body p-0 m-0">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images1/vegetable-biryani-1-of-3.jpg" alt="biryani" class="w-100 horizontalimg">
+                </div>
+                <div class="col-8 lg-p-3 bodycard">
+                  <h1 class="itemname">Vegetable Biryani</h1>
+                  <p class="Time"><i class="fa-regular fa-clock"></i> 20-30 min</p>
+                  <p class="Time"><i class="fa-solid fa-indian-rupee-sign"></i> 200</p>
+                  <button class="btn btn-dark Time">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        <!-- card-5 -->
+        <div class="col">
+          <div class="card horizontalcard p-0 m-0">
+            <div class="card-body p-0 m-0">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./images1/dal-makhani-recipe.jpg" alt="dalmakhani" class="w-100 horizontalimg">
+                </div>
+                <div class="col-8 lg-p-3">
+                  <h1 class="itemname">Dal Makhani</h1>
+                  <p class="Time"><i class="fa-regular fa-clock"></i> 20-30 min</p>
+                  <p class="Time"><i class="fa-solid fa-indian-rupee-sign"></i> 150</p>
+                  <button class="btn btn-dark Time">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- card-6 -->
+          <div class="col">
+            <div class="card horizontalcard p-0 m-0">
+              <div class="card-body p-0 m-0">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="./images1/Paneer_Butter_Masala_Recipe.jpg" alt="paneerbuttermasala" class="w-100 horizontalimg">
+                  </div>
+                  <div class="col-8 lg-p-3">
+                    <h1 class="itemname">Paneer Butter Masala</h1>
+                    <p class="Time"><i class="fa-regular fa-clock"></i> 20-30 min</p>
+                    <p class="Time"><i class="fa-solid fa-indian-rupee-sign"></i> 350</p>
+                    <button class="btn btn-dark Time">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container-fluid mt-5 footer">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 p-4">
+    <div class="col">
+      <ul class="footerlink">
+        <h1>Company</h1>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">SST Blog</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="footerlink">
+        <h1>Contact</h1>
+        <li><a href="#">Help&Support</a></li>
+        <li><a href="#">Partner With Us</a></li>
+        <li><a href="#">Ride With Us</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="footerlink">
+        <h1>Legal</h1>
+        <li><a href="#">Tearms & Conditions</a></li>
+        <li><a href="#">Refund & Cancellation</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <img alt="image" src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" class="sc-s1isp7-5 fyZwWD pb-4 w-50">
+      <img alt="image" src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" loading="lazy" class="sc-s1isp7-5 fyZwWD w-50">
+    </div>
+  </div>
+  </div>
+  </footer>
+ 
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
